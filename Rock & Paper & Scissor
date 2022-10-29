@@ -1,0 +1,17 @@
+const choices=["paper", "scissor", "rock" ];
+const userPrompt=prompt(" 0 for paper,1 for scissor,2 for rock");
+const userInput=choices[userPrompt];
+const computerChoices=randomInteger(0,2);
+const computerChoiceName=choices[computerChoices];
+let outcome="Ready to play";
+if (computerChoiceName===userInput){
+    outcome="Draw";
+} else if (computerChoiceName==="scissor" && userInput==="rock"){outcome="user Win";}
+else if (computerChoiceName==="rock" && userInput==="scissor"){outcome="computer Win";}
+else if (computerChoiceName==="rock" && userInput==="paper"){outcome="user Win";}
+else if (computerChoiceName==="paper" && userInput==="rock"){outcome="computer Win";}
+else if (computerChoiceName==="paper" && userInput==="scissor"){outcome="user Win";}
+else if (computerChoiceName==="scissor" && userInput==="paper"){outcome="computer Win";}
+console.log(userInput,'user choice');
+console.log(computerChoiceName,'computer Choice');
+console.log(outcome);
