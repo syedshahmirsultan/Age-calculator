@@ -1,0 +1,17 @@
+let yearsToMonth=12;
+let years=prompt('please enter age in years');
+console.log(years,'years');
+let month=years*yearsToMonth;
+console.log(month,'month');
+let monthToDays=30;
+let days=years*yearsToMonth*monthToDays;
+console.log(days,'days');
+let daysToHours=24;
+let hours=years*yearsToMonth*monthToDays*daysToHours;
+console.log(hours,'hours');
+let hoursToMin=60;
+let min=years*yearsToMonth*monthToDays*daysToHours*hoursToMin;
+console.log(min,'min');
+let minToSec=60;
+let sec=years*yearsToMonth*monthToDays*daysToHours*hoursToMin*minToSec;
+console.log(sec,'sec');
