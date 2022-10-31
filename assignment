@@ -1,0 +1,353 @@
+//assignment Q2
+var name="Shahmir";
+console.log("Hey Shahmir,How are you?");
+// assignment Q3
+var name1="sHahFaY";
+var name2=name1.toLowerCase();
+console.log(name2);
+ var name3=name2.toUpperCase();
+ console.log(name3);
+var name4=name1[0].toUpperCase()+""+name1.slice(1).toLowerCase();
+console.log(name4);
+// assignment Q4
+console.log("Albert Einstein once said,",`"A person who never made a mistake never tried anything new"`);
+// assignment Q5
+var famous_Person="Albert Einstein"
+var message=`once said,"A person who never made a mistake never tried anything new"`;
+var famousMessage=famous_Person+" "+message;
+console.log(famousMessage);
+// assignment Q6
+var name5="Su\tltan";
+console.log(name5);
+var name5="Su\ntan";
+console.log(name5);
+var name5="Sultan";
+console.log(name5);
+// assingment Q7
+console.log(5+3,'after adition');
+console.log(16-8,'after subtraction');
+console.log(2*4,'after multiplication');
+console.log(16/2,'after division');
+// assingment Q8
+console.log(5+3);
+console.log(9-1);
+console.log(6+2);
+console.log(1+7);
+// assignment Q9
+var favouriteNumber=23;
+var favourite_Number="My favourite number is";
+console.log(favourite_Number,+favouriteNumber);
+// assingment Q10
+/* I have already write the comments 
+in the above questions*/
+// assingment Q11
+var names=["Shahmir","Hashir","Ammar","Eraj","Ali"];
+console.log(names[0]);
+console.log(names[1]);
+console.log(names[2]);
+console.log(names[3]);
+console.log(names[4]);
+//  assingment Q12
+var message=["Thank You"];
+console.log(names[0]+" "+ message);
+console.log(names[1]+" " + message);
+console.log(names[2]+" "+ message);
+console.log(names[3]+" " + message); 
+console.log(names[4]+" "+ message);
+// assingment Q13
+var modesOfTransportation=["helicopter","car","aeroplane","motorcycle"];
+console.log("I would like to ride a"+" "+ modesOfTransportation[1]);
+console.log("My favourite"+" "+ modesOfTransportation[1] +" "+ "company model is Bentley Continental GT");
+// assignment Q14
+
+var guests=["Irtaza Zaidi","Haris Tahir","Rayyan Siddique"];
+console.log(guests[0]+", "+"I have a dinner in the celebration of my gradutation and you  must come");
+console.log(guests[1]+", "+"I have a dinner in the celebration of my gradutation and you  must come");
+console.log(guests[2]+", "+"I have a dinner in the celebration of my gradutation and you  must come");
+// assignment Q15
+var guestNotComing=guests[0]+" "+"is not coming";
+console.log(guestNotComing);
+ guests.shift();guests.unshift("Hashir");
+ console.log(guests);
+ console.log(guests[0]+", "+"I have a dinner in the celebration of my gradutation and you  must come");
+ console.log(guests[1]+", "+"I have a dinner in the celebration of my gradutation and you  must come");
+ console.log(guests[2]+", "+"I have a dinner in the celebration of my gradutation and you  must come");
+ // assignment Q16
+guests.unshift("Ali");
+guests.splice(2,0,"Ahmed");
+guests.push("Hur");
+console.log(guests);
+console.log(guests[0]+","+"I have a dinner in the celebration of my gradutation and you  must come");
+ console.log(guests[1]+", "+"I have a dinner in the celebration of my gradutation and you  must come");
+ console.log(guests[2]+", "+"I have a dinner in the celebration of my gradutation and you  must come");
+ console.log(guests[3]+", "+"I have a dinner in the celebration of my gradutation and you  must come");
+ console.log(guests[4]+", "+"I have a dinner in the celebration of my gradutation and you  must come");
+ console.log(guests[5]+", "+"I have a dinner in the celebration of my gradutation and you  must come");
+// assignment Q17
+console.log("Sorry I have a space for two guests for dinner");
+console.log(guests[4]+" "+"Sorry I have a space for two guests and I have already invited the guests");guests.pop()
+console.log(guests[3]+" "+"Sorry I have a space for two guests and I have already invited the guests");guests.pop()
+console.log(guests[2]+" "+"Sorry I have a space for two guests and I have already invited the guests");guests.pop()
+console.log(guests);
+console.log(guests[0]+" "+"Dont worry you are still invited");
+console.log(guests[1]+" "+"Dont worry you are still invited");
+guests.pop();
+guests.pop();
+console.log(guests);
+// assignment Q18
+var touristAttraction=["Copenhagen","Helsinki","Maldives","Swat","Bahamas"];
+console.log(touristAttraction);
+console.log (touristAttraction.sort());
+touristAttraction=["Copenhagen","Helsinki","Maldives","Swat","Bahamas"];
+console.log(touristAttraction);
+console.log(touristAttraction.sort().reverse());
+touristAttraction=["Copenhagen","Helsinki","Maldives","Swat","Bahamas"];
+console.log(touristAttraction);
+console.log(touristAttraction.reverse());
+console.log(touristAttraction.reverse());
+ console.log(touristAttraction.sort());
+ console.log(touristAttraction.reverse());
+// // assignment Q19
+console.log(guests.length,);
+console.log("no guest is invited to the dinner");
+// assignment Q20
+let countries=["Pakistan","India","Iran","Bangladesh","America","Maldives"];
+console.log(countries);
+// assignment Q21
+let country={
+    country:"Pakistan",
+    currency:"Pakistani rupee",
+    capital:"Islamabad",
+    NationalLanguage:"Urdu"};
+    console.log(country);
+    
+// assignment Q23
+    let color='Green';
+    console.log("Is color=='Green'? I predict True");
+console.log(color=='Green');
+console.log("Is color=='green'?I predict false")
+console.log(color=="green");
+let city="Islamabad";
+console.log("Is city=='Islamabad'?I predict true");
+console.log(city=="Islamabad");
+console.log("Is city==='islamabad'?I predict false")
+console.log(color==="islamabad");
+let num=5;
+console.log("Is num=='5'?I predict true");
+console.log(num=='5');
+console.log("Is num==='5'?I predict false");
+console.log(num==="5");
+let fish="Star fish";
+console.log("Is fish==='Star fish'?I predict true");
+console.log(fish==="Star fish");
+console.log("Is fish==='star fish'?I predict false");
+console.log(fish=='star fish');
+let pet="cat";
+console.log("Is pet==='cat'?I predict true");
+console.log(pet==="cat");
+console.log("Is pet==='Cat'?I predict false");
+console.log(pet==="Cat");
+// assignment Q24
+let person="Arshad";
+console.log("person==='Arshad'");
+console.log(person==="Arshad");
+console.log("person!=='Arshad'");
+console.log(person!=="Arshad");
+console.log("person.toLowerCase()==='arshad'")
+console.log(person.toLowerCase()==="arshad");
+console.log("person.toLowerCase()==='Arshad'")
+console.log(person.toLowerCase()==="Arshad");
+let num1=5;
+console.log("num1===5");
+console.log(num1===5);
+console.log("num1!==5");
+console.log(num1!==5);
+console.log("num1>4");
+console.log(num1>4);
+console.log("num1<5");
+console.log(num1<5);
+console.log("num1<=4")
+console.log(num1<=4);
+console.log("num1>=5")
+console.log(num1>=5);
+console.log("num1===5 && num1<5");
+console.log(num1===5 && num1<5);
+console.log("num1===5 ||num1<4");
+console.log(num1===5 ||num1<4);
+let people=["shahmir","sultan","shafay"];
+console.log("people.includes('shahmir')");
+console.log(people.includes('shahmir'));
+console.log("people.includes('haider')");
+console.log(people.includes("haider"));
+// assignment Q25
+let alien_Color="green";
+if (alien_Color==="green"){ console.log("Player earned 5 points");
+} else if (alien_Color==="red"){}
+// assignment Q26
+if (alien_Color==="green"){ console.log("Player earned 5 points for shooting the alien");}
+else if(alien_Color!=="green"){
+    console.log("Player just earned 10 points");}
+// assignment Q27
+if (alien_Color==="green"){
+    console.log("Player earned 5 points")
+   alien_Color="yellow";}
+  if (alien_Color==="yellow"){
+    console.log("The player earned 10 points");}
+     alien_Color="red";
+    if (alien_Color==="red"){
+        console.log("The player earned 15 points");}
+        // assignment Q28
+    let personAge=15;
+    if (personAge<2){
+        console.log("The person is a baby");
+    } else if (personAge>2&&personAge<4){ 
+        console.log("The person is toddler");
+    } else if (personAge>4&&personAge<13){
+        console.log("The person is kid");
+    } else if (personAge>13&&personAge<20 ){
+        console.log("The person is teenager");
+    } else if (personAge>20&&personAge<60){
+        console.log("The person is adult");
+    } else if (personAge>=60){
+        console.log("The person is elder");}
+    // assignment Q29
+    let favourite_Fruit=['mango','banana','apple'];
+    if (favourite_Fruit.includes("mango")){
+        console.log("You really like mangoes");
+    } if (favourite_Fruit.includes("strawberry")){
+    ;} if (favourite_Fruit.includes("banana")){
+        console.log('You really like bananas');
+    } if (favourite_Fruit.includes("apple")){
+        console.log("You really like apples");
+    } if (favourite_Fruit.includes("cherry")){
+   ;}
+// assignment Q30
+let userName=["shahmir","hassan","hussain","hussnain","admin"];
+for(let i=0;i<=4;i++){
+if("admin"==userName[i]){
+console.log("Hello admin, would you like to see a status report?");}  
+ else if ("shahmir"==userName[i]){console.log("Hello Shahmir,thank you for logging in again");}
+ else if ("hassan"==userName[i]){console.log("Hello hassan,thank you for logging in again");}
+ else if ("hussain"==userName[i]){console.log("hello hussain,thank you for logging in again");}
+else if ("hussnain"==userName[i]){console.log("hello hussnain,thank you for logging in again");}}  
+// assignment Q31
+userName="[]"
+if(userName==="[]"){console.log("We need to find some users!");
+} 
+// assignment Q32
+let current_user=["shahmir","shafay","sultan","imran"];
+let new_user=["imran","haider","nawaz","ali","shahmir"];
+for(let a=0;a<4;a++){
+ for (let b=0;b<4;b++){ if(current_user[a]==new_user[b])
+    {console.log("The person will need to enter a new user name");}
+    else if(current_user[a]!=new_user[b]){ console.log("The user name is available");
+    }}}
+    // assignment Q33
+    let number=[1,2,3,4,5,6,7,8,9];
+    for (let j=0;j<9;j++){
+        if(1==number[j]){
+            console.log("1st");
+        } else if (2==number[j]){
+            console.log('2nd');
+         } else if (3==number[j]){
+            console.log("3rd");
+         } else if (4==number[j]){
+            console.log("4th");
+         }else if (5==number[j]){
+            console.log("5th")
+         } else if (6==number[j]){
+            console.log("6th");
+         } else if (7==number[j]){
+            console.log("7th");
+         } else if (8==number[j]){
+            console.log("8th");
+         } else if (9==number[j]) {
+            console.log("9th");
+         }
+    } 
+    // assignment Q34
+    let pizzas=["tikka","fajita","pepperoni"]
+for(let p=0;p<3;p++){
+    if("tikka"==pizzas[p]){ console.log("I like tikka pizza");
+    } else if ("fajita"==pizzas[p]){
+        console.log("I like fajita pizza");}
+        else if ("pepperoni"==pizzas[p]){ console.log("I like pepperoni pizza");
+        }} console.log("I like chicken tikka pizza");
+        console.log("I like chicken fajita pizza with cheese topping");
+        console.log("I like hot n spicy pizzas");
+        console.log("I love pizza");
+        // assignment Q35
+let animals=["lion","tigers","cheetah"];
+for(let w=0;w<3;w++){if("lion"==animals[w]){console.log("lion is known as king of forest");}
+if ("tigers"==animals[w]){console.log(" tigers are mostly in orange color");}
+if ("cheetah"==animals[w]){console.log(" cheetah can run at a speed of 70 km/h");
+}};console.log("They all are wild animals");
+console.log("No one can be treated as a pet because all are wild animals");
+// assignment Q36
+function make_shirts(size,message){
+  console.log("Size of shirt is "+ size +" and message printed on the shirt is "+ message);  
+}  make_shirts(34,'No More Rules');
+// assignment Q37
+function make_shirt(size){
+    if (size=='small') {console.log("Never Give Up")
+    } else if (size=='medium') { console.log("No More Rules")   
+    } else{
+        console.log("I love java script")
+    };}
+make_shirt('small')
+
+// assignment Q38
+function describe_city(city,country) {
+    console.log(city+" is in "+country);
+} describe_city('Delhi','India');
+  // assignment Q39
+  function city_country (city,country) {
+    console.log(city+","+country)
+  } city_country(`"Lahore`,`Pakistan"`);
+  city_country(`"Lisbon`,`Portugal"`);
+  city_country(`"Delhi`,`India"`);
+  // assignment Q40
+  function make_album(Tracks){
+    let music_album={artist_name: "Michael Jackson",
+   album_title:" Thriller",
+numberOfTracks:334 };console.log(music_album)
+    let music_album1={ artist_name:"Pink Floyd",
+album_title:"THE DARK SIDE OF THE MOON",
+numberOfTracks:276};console.log(music_album1);
+    let music_album2={artist_name:"Paul McCartney",
+album_title:"Beatles",
+numberOfTracks:196};console.log(music_album2);
+  } make_album();
+  // assignment Q41
+  let magicians_name=["David Copperfield"," Paul Daniels"," David Blaine"];
+  function show_magicians(){
+    console.log(magicians_name);
+  } show_magicians();
+  // assignment Q42
+  function make_great(){
+  let magicians_names=["The great David Copperfield","The great Paul Daniels","The great David Blaine"]
+  console.log(magicians_names)
+  } make_great()
+// assignment Q43
+show_magicians();
+make_great();
+// assignment Q44   
+function sandwich_maker(ingredients){
+let sandwich=["chicken","Mayo","salad","kechup","bun"]
+console.log("The sandwich consists of "+ingredients)
+} sandwich_maker("chili,chicken,bun,mayo and salad");
+sandwich_maker("Bonelesss chicken,mayo,kechup and doudle dacker bun");
+sandwich_maker("chicken,no spices,little bit mayo and simple bun");
+// assignment Q45
+function car_information(keyword){
+    let car={
+car_Manufactural:'Honda',
+car_Model: 'city',
+"year_Of Manufacture":2022,
+color:'black',
+Transmission:'Automatic'    
+}; if (keyword){console.log(car)}
+else {
+
+}
+} car_information(1234);
