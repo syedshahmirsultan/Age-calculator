@@ -1,0 +1,14 @@
+let max=5;
+let num=Math.floor(Math.random()+1);
+let answer=false;
+while (!answer) {
+ let userChoice=prompt("Enter number between 1 and 5");
+ userChoice=Number(userChoice)
+if (num===userChoice) {
+    answer=true;
+    console.log("You have guessed the number");
+} else if(num<userChoice) {
+    console.log("Your guess is too high");
+}else{
+    console.log("Your guess is small");
+}};
